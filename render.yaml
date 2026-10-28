@@ -2,7 +2,7 @@
 # the Render Postgres database it connects to.
 services:
   - type: web # A Python web service named django-app running on a free instance
-    plan: freeb
+    plan: free
     name: django-app-free-fun
     runtime: python
     repo: https://github.com/render-examples/django.git
